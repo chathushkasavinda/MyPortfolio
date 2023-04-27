@@ -5,32 +5,251 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="asset/css/normalize.css" rel="stylesheet">
+
+    <style>
+        #main_page{
+            position: relative;
+            height: 100vh;
+            width: 100vw;
+            background-color: aqua;
+            top: 0;
+        }
+        #nav_page{
+            position: fixed;
+            height: 100%;
+            width: 15%;
+            background-color: black;
+        }
+
+        #profile_name{
+            color: white;
+            font-size: 30px;
+            padding: 5px 30px 10px 20px;
+        }
+        #home_page{
+            position: absolute;
+            height: 100%;
+            width: 85%;
+            top: 0%;
+            left: 15%;
+            background-color: blanchedalmond;
+        }
+        #home_page_image>img{
+            opacity: 75%;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+        }
+        #profile_image{
+            width: 80%;
+            height: 25%;
+            padding: 50px 20px 10px 30px;
+        }
+        #menu_list{
+            color: white;
+            list-style: none;
+            font-size: 20px;
+            padding: 10px 10px 10px 10px;
+            font-family: "Rage Italic";
+
+        }
+        #menu_list>li{
+            padding: 20px 10px 20px 10px;
+        }
+        #menu_list>li>a{
+            text-decoration: none;
+        }
+
+        #welcome{
+            font-size: 40px;
+            color: black;
+
+        }
+    </style>
 </head>
 <body>
-    <section>
-        <aside><h3>Home</h3></aside>
-        <aside><h3>About me</h3></aside>
-        <aside><h3>What I do</h3></aside>
-        <aside><h3>Resume</h3></aside>
-        <aside><h3>Contact</h3></aside>
+    <section id="main_page">
+        <section id="nav_page">
+            <img id="profile_image" src="asset/WhatsApp%20Image%202023-02-22%20at%2012.12.51%20PM-modified.png" alt="my_profile">
+            <b><p id="profile_name">Chathushka <br/>Savinda</p></b>
+            <ul id="menu_list">
+                <li><a href="http://ijse.lk" target= "_blank">Home</a></li>
+                <li>About <me></me></li>
+                <li>What I do</li>
+                <li>Resume</li>
+                <li>Contact</li>
+            </ul>
+        </section>
+
+            <section id="home_page" >
+                 <article>
+                     <div id="home_page_image">
+                       <img src="asset/male-indian-programmer-working-desktop-computer-white-desk-office.jpg">
+                     </div>
+
+                        <center><b><p id="welcome">WelCome</p></b></center>
+                        <h3>I am Full Stack Developer</h3>
+
+                 </article>
+            </section>
+
+
     </section>
 
-    <section>
-        <article>
-            <h3>I am Full Stack Developer</h3>
-        </article>
-    </section>
+<!--    <section>-->
+<!--        <aside> web Developer -->
+<!--            <pre>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima molestias facilis repellendus,-->
+<!--                 tenetur commodi ipsam sit officia nostrum reiciendis nemo quam iste nulla debitis? Pariatur voluptates nemo eius illum. -->
+<!--                 Commodi.</pre>-->
+<!--        </aside>-->
+<!--        <aside> full stack Developer-->
+<!--            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.-->
+<!--                 Alias facilis ducimus illum tempore quasi perferendis a provident magni unde sequi quis tenetur, -->
+<!--                illo id vitae laboriosam? Consequatur odit est aut?</pre>-->
+<!--        </aside>-->
+<!--        <aside>ui ux designer-->
+<!--            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.-->
+<!--                Alias facilis ducimus illum tempore quasi perferendis a provident magni unde sequi quis tenetur, -->
+<!--               illo id vitae laboriosam? Consequatur odit est aut?</pre>-->
+<!--        </aside>-->
+<!--        <aside>Investor-->
+<!--            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit.-->
+<!--                Alias facilis ducimus illum tempore quasi perferendis a provident magni unde sequi quis tenetur, -->
+<!--               illo id vitae laboriosam? Consequatur odit est aut?</pre>-->
+<!--        </aside>-->
+<!--    </section>-->
 
-    <section>
-        <article>About me</article>
-    </section>
+<!--    <section>-->
+<!--        <h3>Know me more </h3>-->
+<!--        <h4>I am Chathushka Savinda, I am a full stack Developer</h4>-->
+<!--        <pre>having back end and front end development. I have backend-->
 
-    <section>
-        <aside> web Developer</aside>
-        <aside> full stack Developer</aside>
-        <aside>ui ux designer</aside>
-        <aside>Investor</aside>
-    </section>
-    
-</body>
+<!--            skills Laravel and PHP. I also have Frontend  skills JavaScript-->
+<!--            -->
+<!--            and Veu.JS.</pre>-->
+
+<!--    </section>-->
+<!--    -->
+<!--    <section>-->
+<!--        <h3>Resume</h3>-->
+<!--        <h4>My Education</h4>-->
+<!--        <h5>GCE Advance Level</h5>-->
+<!--        <h6>Commerce with infromation and technology</h6>-->
+<!--        <h5>Computer Sceince</h5>-->
+<!--        <h6>Bsc.Hons Computer Sceince</h6>-->
+<!--        <h4>My skills</h4>-->
+<!--        <h5>Java</h5>-->
+<!--        <h5>My SQL</h5>-->
+<!--        <h5>Html/CSS</h5>-->
+<!--        <h5>Web Design</h5>-->
+<!--    </section>-->
+
+<!--    <section>-->
+<!--        <h3>Get In Touch</h3>-->
+<!--        <h4>Address</h4>-->
+<!--        <address>190/D,Neungala south,Kottawagama,Galle</address>-->
+<!--        <h3><a href="tel:0779750479">0779750479</a> </h3>-->
+<!--        <h5><a href="mailto:chathushkasavinda18@gmail.com">contactsavinda@gmail.com</a></h5>-->
+<!--        <p><a href="Layerd Architecture Questions (1).pdf" download="cv.pdf">download CV</a></p>-->
+<!--        <h4>Send us a note</h4>-->
+<!--    </section>-->
+<!--<aside>-->
+<!--    <img src="./asset/109-1092524_facebook-f-icon-facebook-f-like-us-png-and-vector-facebook-logo.png" alt="facebook">-->
+<!--    <img src="./asset/27-273567_essential-set-vector-social-media-icons-png-transparent-modified (1).png" alt="">-->
+<!--    <img src="./asset/27-273567_essential-set-vector-social-media-icons-png-transparent-modified.png" alt="">-->
+<!--    -->
+<!--    <object data="./asset/Layerd Architecture Questions (1).pdf" type="application/pdf" width="1400" height="400px"></object>-->
+<!--</aside>-->
+
+<!--<table border="1">-->
+<!--    <caption>Customer Detail Table</caption>-->
+<!--    <style>-->
+<!--        .a{-->
+<!--            background-color: yellow;-->
+<!--        }-->
+
+<!--        .b{-->
+<!--            background-color: green;-->
+<!--        }-->
+<!--    </style>-->
+<!--    <colgroup>-->
+<!--    <col span="2" class="a">-->
+<!--    <col span="2" class="b">-->
+<!--    <col>-->
+<!--    </colgroup>-->
+<!--    <tr>-->
+<!--        <thead>-->
+<!--            <tr>-->
+<!--                <th>Customer Id</th>-->
+<!--                <th>Customer Name</th>-->
+<!--                <th>Customer Address</th>-->
+<!--                <th>Customer Tp</th>-->
+<!--                <th>Edit</th>-->
+<!--            </tr>-->
+<!--        </thead>-->
+
+<!--        <tbody>-->
+<!--            <td>C001</td>-->
+<!--            <td>Kavindu</td>-->
+<!--            <td>Galle</td>-->
+<!--            <td>071-25466824</td>-->
+<!--            <td><img src="/asset/pencil (1).png" alt="" width="64" height="64"></td>-->
+<!--        </tbody>-->
+<!--        -->
+<!--    </tr>-->
+
+<!--    <tr>-->
+<!--        <td>C001</td>-->
+<!--        <td>Chathushka</td>-->
+<!--        <td>Colombo</td>-->
+<!--        <td>071-254684524</td>-->
+
+<!--    </tr>-->
+<!--</table>-->
+
+<!--<br>-->
+<!--<br>-->
+<!--<section>-->
+<!--    <form action="kal" method="post">-->
+<!--        <label for="fname">1. First name:</label>-->
+<!--        <input type="text" id="fname" name="fname" placeholder="John"><br>-->
+<!--        <label for="lname">2. Last name:</label>-->
+<!--        <input type="text" id="lname" name="lname" value="Doe"><br>-->
+<!--        <label for="dob">3. Date of birth:</label>-->
+<!--        <input type="date" id="dob" name="dob" value="1999.10.18"><br>-->
+<!--        <label for="tp">4. TP:</label>-->
+<!--        <input type="tel" id="tp" name="tp" value="078246584"><br>-->
+<!--        <label for="email">5. Email:</label>-->
+<!--        <input type="email" id="eamil" name="email" value="savinda@gmail.com"><br>-->
+<!--        <label for="address">6. Address:</label>-->
+<!--        <input type="address" id="adress" name="address" value="190/d,Galle."><br>-->
+<!--        <label for="age">6. Age:<label>-->
+<!--        <input type="number" id="age" name="age" value="24"><br>-->
+<!--        <label for="profile">7. Upload profile picture:</label>-->
+<!--        <input type="file" id="profile" name="profile" value="">-->
+<!--        <p>Skin Color</p>-->
+<!--        <input type="radio" id="Fair" name="skin_color" value="Fair">-->
+<!--        <label for="Fair">Fair</label>-->
+<!--        <input type="radio" id="brown" name="skin_color" value="brown">-->
+<!--        <label for="brown">Brown</label>-->
+<!--        <input type="radio" id="black" name="skin_color" value="black">-->
+<!--        <label for="brown">Black</label>-->
+<!--        <optgroup label="Foregin Lanuages">-->
+<!--            <option value="Fair">French</option>-->
+<!--            <option value="brown">Japan</option>-->
+<!--            <option value="black">Sinhala</option>-->
+<!--        </optgroup>-->
+<!--        <label for="skillRange">Skill Range with java</label>-->
+<!--        <input type="range" id="skillRange" min="0" max="100" value="5">-->
+
+<!--        <label for="file">File progress:</label>-->
+<!--        -->
+<!--        <progress id="file" max="100" value="70"> 70% </progress>-->
+<!--        <label></label>-->
+<!--        <label for=""></label>-->
+<!--    </form>-->
+</section>
+    </body>
 </html>
