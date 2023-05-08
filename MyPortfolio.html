@@ -6,68 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="asset/css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="asset/styles.css">
 
-    <style>
-        #main_page{
-            position: relative;
-            height: 100vh;
-            width: 100vw;
-            background-color: aqua;
-            top: 0;
-        }
-        #nav_page{
-            position: fixed;
-            height: 100%;
-            width: 15%;
-            background-color: black;
-        }
-
-        #profile_name{
-            color: white;
-            font-size: 30px;
-            padding: 5px 30px 10px 20px;
-        }
-        #home_page{
-            position: absolute;
-            height: 100%;
-            width: 85%;
-            top: 0%;
-            left: 15%;
-            background-color: blanchedalmond;
-        }
-        #home_page_image>img{
-            opacity: 75%;
-            position: absolute;
-            height: 100%;
-            width: 100%;
-            top: 0;
-        }
-        #profile_image{
-            width: 80%;
-            height: 25%;
-            padding: 50px 20px 10px 30px;
-        }
-        #menu_list{
-            color: white;
-            list-style: none;
-            font-size: 20px;
-            padding: 10px 10px 10px 10px;
-            font-family: "Rage Italic";
-
-        }
-        #menu_list>li{
-            padding: 20px 10px 20px 10px;
-        }
-        #menu_list>li>a{
-            text-decoration: none;
-        }
-
-        #welcome{
-            font-size: 40px;
-            color: black;
-
-        }
-    </style>
 </head>
 <body>
     <section id="main_page">
@@ -75,28 +15,75 @@
             <img id="profile_image" src="asset/WhatsApp%20Image%202023-02-22%20at%2012.12.51%20PM-modified.png" alt="my_profile">
             <b><p id="profile_name">Chathushka <br/>Savinda</p></b>
             <ul id="menu_list">
-                <li><a href="http://ijse.lk" target= "_blank">Home</a></li>
-                <li>About <me></me></li>
+                <li><a href="#home_page">Home</a></li>
+                <li><a href="#aboutMePage">About me</a  ></li>
                 <li>What I do</li>
                 <li>Resume</li>
+                <li>Portfolio</li>
+                <li>Testimonial</li>
                 <li>Contact</li>
             </ul>
+
+            <img src="asset/download-modified.png" alt="github_png" width="25" height="50">
+            <img src="asset/Linkedin-In-Logo-PNG-HD.png" alt="github_png" width="25" height="50">
+            <img src="asset/6422213.png" alt="github_png" width="25" height="50">
+
         </section>
 
-            <section id="home_page" >
-                 <article>
-                     <div id="home_page_image">
-                       <img src="asset/male-indian-programmer-working-desktop-computer-white-desk-office.jpg">
-                     </div>
-
-                        <center><b><p id="welcome">WelCome</p></b></center>
-                        <h3>I am Full Stack Developer</h3>
-
-                 </article>
             </section>
 
+                <section id="home_page" class="section" >
 
-    </section>
+                         <div id="home_page_image">
+                             <img src="asset/male-indian-programmer-working-desktop-computer-white-desk-office.jpg">
+
+
+                             <center><b><p id="welcome">WelCome</p></b></center>
+                             <center><h3>I am Full Stack Developer</h3></center>
+                             <center>based in Galle,Sri Lanka</center>
+                             <center><button type="button" onclick="">Hire me</button></center>
+                         </div>
+
+                </section>
+
+                <section id="aboutMePage">
+                    <center>
+                        <h1 id="heading">Know me more</h1>
+                        <p id="opacity_about_me">A  B  O  U  T M  E</p>
+                    </center>
+                    <div>
+                        <p><b>I'm Chathushka Savinda,a Full Stack Developer</b><br></p>
+                            <p>
+                                having back end and front end development.My core technical skills include<br>
+                                proficiency in languages like JavaScript, HTML/CSS, and Python. I have also worked<br>
+                                with frameworks like React, Node.js, AngularJS, Django, and Flask, among others.<br>
+                            </p>
+                            <p>
+                                My passion for coding started at an early age and I have always enjoyed working on<br>
+                                complex projects that challenge me to think creatively and problem-solve.<br>
+                            </p>
+                            <p>
+                                As a Full Stack Developer, I believe in the importance of collaboration and communication.<br>
+                                I am a team player who enjoys working with cross-functional teams to ensure that projects<br>
+                                are delivered on time and to the highest quality standards</p>
+                            </p>
+                    </div>
+                         <ul id="contactInfo">
+                             <li>Name: Chathushka Savinda</li>
+                             <li>Email: contactsavinda@gmail.com</li>
+                             <li>Age: 23</li>
+                             <li>From: Galle,Sri Lanka</li>
+                         </ul>
+                        <ul id="projectsInfo">
+                            <li>1+<br>years experience </li>
+                            <li>5+<br>Happy Clients </li>
+                            <li>15+<br>Projects Done </li>
+                            <li>2<br>Get Awards </li>
+                        </ul>
+                </section>
+
+
+
 
 <!--    <section>-->
 <!--        <aside> web Developer -->

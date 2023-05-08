@@ -1,0 +1,109 @@
+                                          /*Main page elements*/
+#main_page{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+}
+
+                                            /*nav page elements*/
+#nav_page{
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    background-color: black;
+}
+#profile_image{
+    width: 80%;
+    height: 25%;
+    padding: 10px 10px 10px 10px;
+}
+#profile_name{
+    color: white;
+    font-size: 30px;
+    padding: 2px 5px 2px 20px;
+}
+#menu_list{
+    color: white;
+    list-style: none;
+    font-size: 20px;
+    padding: 5px 10px 10px 10px;
+    font-family: "Rage Italic";
+}
+#menu_list>li>a{
+    text-decoration: none;
+}
+#menu_list>li{
+    padding: 10px 10px 15px 10px;
+}
+
+                                            /*Home page elements*/
+#home_page{
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    top: 0%;
+    left: 15%;
+    background-color: blanchedalmond;
+}
+
+#home_page_image>img{
+    opacity: 75%;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+#welcome{
+    color: green;
+}
+
+                                            /*About me page elements*/
+
+
+#aboutMePage>div{
+    font-size: 20px;
+    position: relative;
+    left: 250px;
+    bottom: 150px;
+}
+#chathuska{
+    color: green;
+}
+#heading{
+    position: relative;
+    left: 60px;
+    font-size: 40px;
+}
+#opacity_about_me{
+    position: relative;
+    bottom: 130px;
+    left: 40px;
+    font-size: 75px;
+    opacity: 10%;
+}
+#contactInfo{
+    position: relative;
+    bottom: 420px;
+    left: 1000px;
+    /*padding: 5px 10px 10px 10px;*/
+}
+#contactInfo>li{
+    padding: 10px 10px 10px 10px;
+}
+
+#projectsInfo{
+    position: relative;
+    left: 100px;
+    bottom: 300px;
+}
+#projectsInfo{
+    display: flex;
+    /*align-items: center;*/
+    justify-content:space-evenly;
+    /*flex-wrap: wrap*/;
+}
+#projectsInfo>ul>li{
+    list-style-type: none;
+}
