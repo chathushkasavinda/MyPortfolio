@@ -12,6 +12,7 @@
     height: 100%;
     width: 15%;
     background-color: black;
+    z-index: 2;
 }
 #profile_image{
     width: 80%;
@@ -19,11 +20,15 @@
     padding: 10px 10px 10px 10px;
 }
 #profile_name{
+    position: relative;
+    bottom: 20px;
     color: white;
     font-size: 30px;
     padding: 2px 5px 2px 20px;
 }
 #menu_list{
+    position: relative;
+    bottom: 35px;
     color: white;
     list-style: none;
     font-size: 20px;
@@ -61,12 +66,17 @@
 
                                             /*About me page elements*/
 
-
+#aboutMePage{
+    background: gray;
+    position: relative;
+    bottom: 44px;
+    z-index: 1;
+}
 #aboutMePage>div{
     font-size: 20px;
     position: relative;
     left: 250px;
-    bottom: 150px;
+    bottom: 50px;
 }
 #chathuska{
     color: green;
@@ -75,17 +85,18 @@
     position: relative;
     left: 60px;
     font-size: 40px;
+    top: 90px;
 }
 #opacity_about_me{
     position: relative;
-    bottom: 130px;
+    bottom: 50px;
     left: 40px;
     font-size: 75px;
     opacity: 10%;
 }
 #contactInfo{
     position: relative;
-    bottom: 420px;
+    bottom: 300px;
     left: 1000px;
     /*padding: 5px 10px 10px 10px;*/
 }
@@ -96,7 +107,7 @@
 #projectsInfo{
     position: relative;
     left: 100px;
-    bottom: 300px;
+    bottom: 100px;
 }
 #projectsInfo{
     display: flex;
@@ -107,3 +118,237 @@
 #projectsInfo>ul>li{
     list-style-type: none;
 }
+                                          /* What I do page*/
+
+#What_I_Do_Page{
+    background: #74B9FF;
+    height: 800px;
+    position: relative;
+    bottom: 71px;
+    z-index: 1;
+}
+
+#heading2{
+    position: relative;
+    left: 60px;
+    font-size: 40px;
+    bottom: 50px;
+    top: 90px;
+}
+#opacity_What_I_do{
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    font-size: 75px;
+    opacity: 10%;
+}
+#services1{
+    position: relative;
+    bottom: 100px;
+    left: 260px;
+}
+#services2{
+    position: relative;
+    bottom: 500px;
+    left: 800px;
+}
+
+                                                /*Resume elements*/
+
+#opacity_summary{
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    font-size: 75px;
+    opacity: 10%;
+}
+#heading3{
+    position: relative;
+    left: 60px;
+    font-size: 40px;
+    bottom: 50px;
+    top: 90px;
+}
+#summary{
+    background: gray;
+    height: 800px;
+    position: relative;
+    /*top: 10px;*/
+    bottom: 99px;
+}
+#education_details1{
+    background: #D3F3E0;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    left: 200px;
+}
+#education_details1>p{
+    background: #55F5C5;
+    border-radius: 40%;
+    width: 35%;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+#GCE{
+    position: relative;
+    right: 30px;
+}
+#education_details2{
+    background: #D3F3E0;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    left: 200px;
+}
+#education_details2>p{
+    background: #55F5C5;
+    border-radius: 40%;
+    width: 35%;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+#education{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+}
+#my_education{
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+}
+#experience_details1{
+    background: #D3F3E0;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    left: 200px;
+}
+#experience_details1>p{
+    background: #55F5C5;
+    border-radius: 40%;
+    width: 35%;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+#experience{
+    position: relative;
+    left: 600px;
+    bottom: 425px;
+}
+#my_experience{
+    position: relative;
+    left: 800px;
+    bottom: 425px;
+}
+#experience_details2{
+    background: #D3F3E0;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    left: 200px;
+    z-index: 2;
+}
+#experience_details2>p{
+    background: #55F5C5;
+    border-radius: 40%;
+    width: 35%;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+                                          /*Skills Elements*/
+/*#skills{
+    position: relative;
+    left: 100px;
+    bottom: 200px;
+}*/
+#my_skills{
+    position: relative;
+    left: 300px;
+    bottom: 300px;
+}
+#skills_1{
+    position: relative;
+    left: 200px;
+    bottom: 300px;
+}
+#skills_2{
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+}
+#radius{
+    border-radius: 100%;
+    border: solid white;
+    background: #55F5C5;
+    width: 200px;
+    height: 20px;
+}
+                                                /*Portfolio elements*/
+
+ #opacity_portfolio{
+     position: relative;
+     bottom: 50px;
+     left: 40px;
+     font-size: 75px;
+     opacity: 10%;
+ }
+ #my_work{
+     position: relative;
+     left: 60px;
+     font-size: 40px;
+     bottom: 50px;
+     top: 90px;
+ }
+#room_reservation>img{
+    position: relative;
+    padding: 10px 0px 0px 10px;
+}
+#room_reservation{
+    position: relative;
+    width: 210px;
+    height: 260px;
+    background: gray;
+    left: 290px;
+}
+
+                                            /*Testimonial elements*/
+
+#portfolio{
+
+}
+#opacity_Testimonial{
+    position: relative;
+    bottom: 50px;
+    left: 40px;
+    font-size: 75px;
+    opacity: 10%;
+}
+#client_speak{
+     position: relative;
+     left: 60px;
+     font-size: 40px;
+     bottom: 50px;
+     top: 90px;
+ }
+#nipun{
+    position: relative;
+    left: 400px;
+    top: 100px;
+    width: 400px;
+    height: 300px;
+    background: gray;
+}
+#yasanga{
+    position: relative;
+    left: 800px;
+    width: 400px;
+    height: 300px;
+    background: #74B9FF;
+}
+
