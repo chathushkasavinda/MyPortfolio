@@ -1,4 +1,12 @@
-                                          /*Main page elements*/
+/* Fonts */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+
+
+
+/*Main page elements*/
 #main_page{
     position: relative;
     height: 100vh;
