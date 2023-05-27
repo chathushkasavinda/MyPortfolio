@@ -133,6 +133,17 @@ z-index: 1;
 
                                             /*About me page elements*/
 
+.projectsDesc{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}                                            
+
+.projectsNumber{
+    font-weight: 500;
+    font-size: 50px;
+}                                            
+
 .gmailColor{
     color: #07BC0C;
 }  
