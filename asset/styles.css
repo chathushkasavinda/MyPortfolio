@@ -61,6 +61,19 @@ a:visited {
     color: white;
 }
 
+#welcome {
+    padding-top: 130px;
+    font-weight: 600;
+font-size: 50px;
+
+}
+
+#autoTyping{
+    font-size: 60px;
+    color: black;
+    z-index: 0;
+}
+
                                             /*Home page elements*/
 #home_page{
     position: absolute;
