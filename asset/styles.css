@@ -341,10 +341,25 @@ z-index: 1;
 }
 #services2{
     position: relative;
-    bottom: 460px;
+    bottom: 580px;
     left: 800px;
 }
 
+.faIcons{
+    color: #07BC0C;
+    background-color: black;
+    font-weight: 100;
+   
+}
+
+.serviceTopic{
+    color: white;
+    font-size: 20px;
+}
+
+.serviceDesc{
+    color: hsla(0,0%,100%,.5);
+}
                                                 /*Resume elements*/
 
 #opacity_summary{
