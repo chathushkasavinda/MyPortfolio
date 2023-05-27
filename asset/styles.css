@@ -132,6 +132,19 @@ z-index: 1;
 }
 
                                             /*About me page elements*/
+
+.descParagraph{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+}                                            
+
+
+ #aboutDescription{
+    color: hsla(0,0%,100%,.5);
+    margin-left: 200px;
+    
+ }                                           
 #line{
     position: relative;
     top: 100px;
@@ -142,6 +155,8 @@ z-index: 1;
 
 #boldName{
     color: #07BC0C;
+    font-weight: 600;
+    font-size: 25px;
 }
 
 #aboutMePage{
