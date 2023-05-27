@@ -260,25 +260,25 @@ z-index: 1;
     line-height: 30px;
 }
 
-#projectsInfo{
-    position: relative;
-    left: 100px;
-    bottom: 100px;
-} 
  #projectsInfo{
     display: flex;
     align-items: center;
      justify-content:space-evenly; 
     flex-wrap: wrap;
- }
- #projectsInfo>ul>li{
+    position: relative;
+    left: 100px;
+    bottom: 100px;
     list-style-type: none;
+   position: relative;
+   bottom: 230px;
+ }
+ 
 
-}  
+#projectInfo>li {
+    list-style-type: none;
+}
 
-/* #aboutDescription{
-    margin-left: 20px;
-} */
+
                                           /* What I do page*/
 
 #What_I_Do_Page{
