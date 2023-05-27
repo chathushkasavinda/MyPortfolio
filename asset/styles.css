@@ -133,6 +133,34 @@ z-index: 1;
 
                                             /*About me page elements*/
 
+.gmailColor{
+    color: #07BC0C;
+}  
+
+.green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+.downloadCV{
+    color: white;
+    order: 8px green solid;
+    border-radius: 50px;
+    margin-top: 30px;
+color: #000000;
+font-size: 20px;
+z-index: 1;
+
+}
+
+
 .boldContactInfo{
     font-weight: 600;
     font-size: 18px;
