@@ -46,7 +46,10 @@
 
 
                              <center><b><p id="welcome">WelCome</p></b></center>
-                             <center><h3>I am Full Stack Developer</h3></center>
+
+                             <span id="element"></span>
+
+                             <!-- <center><h3>I am Full Stack Developer</h3></center> -->
                              <center>based in Galle,Sri Lanka</center>
                              <center><button type="button" onclick="">Hire me</button></center>
                          </div>
@@ -389,5 +392,17 @@
 <!--        <label for=""></label>-->
 <!--    </form>-->
 </section>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['I am Chathushka Savinda.', 'I	&apos;m a Full Stack Developer.'],
+      typeSpeed: 100,
+    });
+  </script>
+
     </body>
 </html>
