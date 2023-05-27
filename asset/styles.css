@@ -136,7 +136,7 @@ z-index: 1;
 #aboutMePage{
     background: gray;
     position: relative;
-    bottom: 44px;
+    bottom: 27px;
     z-index: 1;
 }
 #aboutMePage>div{
@@ -164,27 +164,27 @@ z-index: 1;
 #contactInfo{
     position: relative;
     bottom: 300px;
-    left: 1000px;
-    /*padding: 5px 10px 10px 10px;*/
+    left: 100px;
+    padding: 5px 10px 10px 10px;
 }
-#contactInfo>li{
+ #contactInfo>li{
     padding: 10px 10px 10px 10px;
-}
+} 
 
 #projectsInfo{
     position: relative;
     left: 100px;
     bottom: 100px;
-}
-#projectsInfo{
+} 
+ #projectsInfo{
     display: flex;
-    /*align-items: center;*/
-    justify-content:space-evenly;
-    /*flex-wrap: wrap*/;
-}
-#projectsInfo>ul>li{
+    align-items: center;
+     justify-content:space-evenly; 
+    flex-wrap: wrap;
+ }
+ #projectsInfo>ul>li{
     list-style-type: none;
-}
+}  
                                           /* What I do page*/
 
 #What_I_Do_Page{
