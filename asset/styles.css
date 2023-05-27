@@ -132,6 +132,17 @@ z-index: 1;
 }
 
                                             /*About me page elements*/
+#line{
+    position: relative;
+    top: 100px;
+    width: 220px;
+  left: 60px;
+  border: #07BC0C 2px solid;
+}
+
+#boldName{
+    color: #07BC0C;
+}
 
 #aboutMePage{
     background-color: #212529;
@@ -153,7 +164,7 @@ z-index: 1;
     position: relative;
     left: 60px;
     font-size: 40px;
-    top: 90px;
+    top: 120px;
     color: white;
 }
 #opacity_about_me{
@@ -162,6 +173,7 @@ z-index: 1;
     left: 40px;
     font-size: 75px;
     opacity: 10%;
+    color: #6C757D;
 }
 #contactInfo{
     position: relative;
@@ -198,7 +210,7 @@ z-index: 1;
 }  
 
 #aboutDescription{
-    margin-left: 100px;
+    margin-left: 20px;
 }
                                           /* What I do page*/
 
