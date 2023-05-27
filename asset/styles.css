@@ -134,10 +134,11 @@ z-index: 1;
                                             /*About me page elements*/
 
 #aboutMePage{
-    background: gray;
+    background-color: #212529;
     position: relative;
     bottom: 27px;
-    z-index: 1;
+    color: #6c757d;
+   
 }
 #aboutMePage>div{
     font-size: 20px;
@@ -153,6 +154,7 @@ z-index: 1;
     left: 60px;
     font-size: 40px;
     top: 90px;
+    color: white;
 }
 #opacity_about_me{
     position: relative;
@@ -166,6 +168,14 @@ z-index: 1;
     bottom: 300px;
     left: 100px;
     padding: 5px 10px 10px 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 700px;
+    
+    bottom: 100px;
+
 }
  #contactInfo>li{
     padding: 10px 10px 10px 10px;
