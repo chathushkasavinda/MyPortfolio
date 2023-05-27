@@ -362,7 +362,79 @@ z-index: 1;
 }
                                                 /*Resume elements*/
 
-#opacity_summary{
+.container{
+    position: relative;
+    right: -125px;
+}
+
+.qualificationTopics{
+    padding-left: 400px;
+}
+
+                                                .qualification_tabs {
+                                                    display: flex;
+                                                    justify-content: space-evenly;
+                                                    margin-bottom: 2rem;
+                                                  }
+                                                  .qualification_button {
+                                                    font-size: 1.125rem;
+                                                    font-weight: 500;
+                                                    cursor: pointer;
+                                                  }
+                                                  .qualification_button:hover {
+                                                    color: hsl(230, 69%, 61%);
+                                                  }
+                                                  .qualification_icon {
+                                                    font-size: 1.8rem;
+                                                    margin-right: 0.25rem;
+                                                  }
+                                                  .qualification_data {
+                                                    display: grid;
+                                                    grid-template-columns: 1fr max-content 1fr;
+                                                    column-gap: 1.5rem;
+                                                  }
+                                                  .qualification_title {
+                                                    font-size: 0.938rem;
+                                                    font-weight: 500;
+                                                  }
+                                                  .qualification_subtitle {
+                                                    display: inline-block;
+                                                    font-size: small;
+                                                    margin-bottom: 1rem;
+                                                  }
+                                                  .qualification_calender {
+                                                    font-size: 1rem;
+                                                    color: hsl(230, 8%, 65%);
+                                                  }
+                                                  .qualification_rounder {
+                                                    display: inline-block;
+                                                    width: 13px;
+                                                    height: 13px;
+                                                    background-color: purple;
+                                                    border-radius: 50%;
+                                                  }
+                                                  .qualification_line {
+                                                    display: block;
+                                                    width: 1px;
+                                                    height: 100%;
+                                                    background-color: hsl(230, 69%, 61%);
+                                                    transform: translate(6px, -7px);
+                                                  }
+                                                  .qualification [data-content] {
+                                                    display: none;
+                                                  }
+                                                  .qualification_active[data-content] {
+                                                    display: block;
+                                                  }
+                                                  .qualification_button.qualification_active {
+                                                    color: hsl(230, 69%, 61%);
+                                                  }
+                                                  .chakrasamvara {
+                                                    text-transform: none;
+                                                    color: hsl(230, 92%, 85%);
+                                                  }                                                
+
+/* #opacity_summary{
     position: relative;
     bottom: 50px;
     left: 40px;
@@ -381,9 +453,9 @@ z-index: 1;
     height: 800px;
     position: relative;
     /*top: 10px;*/
-    bottom: 99px;
-}
-#education_details1{
+    /* bottom: 99px; */
+/* } */
+/* #education_details1{
     background: #D3F3E0;
     width: 300px;
     height: 120px;
@@ -391,7 +463,7 @@ z-index: 1;
     left: 200px;
 }
 #education_details1>p{
-    background: #55F5C5;
+    background: #141414;
     border-radius: 40%;
     width: 35%;
     position: relative;
@@ -466,8 +538,8 @@ z-index: 1;
     width: 35%;
     position: relative;
     left: 5px;
-    top: 10px;
-}
+    top: 10px; */
+*/
                                           /*Skills Elements*/
 /*#skills{
     position: relative;
