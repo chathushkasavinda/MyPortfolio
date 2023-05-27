@@ -291,7 +291,15 @@ z-index: 1;
 
 
                                           /* What I do page*/
+#services1 > ul >li , #services2 > ul >li{
+    list-style-type: none;
+}                                          
 
+/* #services2 {
+    position: relative;
+   bottom: 373px;
+   left: 800px;
+} */
 
 #line2{
     position: relative;
@@ -331,7 +339,7 @@ z-index: 1;
 }
 #services2{
     position: relative;
-    bottom: 500px;
+    bottom: 373px;
     left: 800px;
 }
 
