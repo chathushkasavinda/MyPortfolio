@@ -292,8 +292,17 @@ z-index: 1;
 
                                           /* What I do page*/
 
+
+#line2{
+    position: relative;
+    top: 41px;
+    width: 220px;
+    left: 60px;
+    border: #07BC0C 2px solid;
+}                                          
+
 #What_I_Do_Page{
-    background: #74B9FF;
+    background-color: #343A40;
     height: 800px;
     position: relative;
     bottom: 71px;
@@ -305,12 +314,13 @@ z-index: 1;
     left: 60px;
     font-size: 40px;
     bottom: 50px;
-    top: 90px;
+    top: 56px;
+    color: white;
 }
 #opacity_What_I_do{
     position: relative;
-    bottom: 50px;
-    left: 40px;
+    bottom: 116px;
+    left: 61px;
     font-size: 75px;
     opacity: 10%;
 }
