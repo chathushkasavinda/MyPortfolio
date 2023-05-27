@@ -194,7 +194,12 @@ z-index: 1;
  }
  #projectsInfo>ul>li{
     list-style-type: none;
+
 }  
+
+#aboutDescription{
+    margin-left: 100px;
+}
                                           /* What I do page*/
 
 #What_I_Do_Page{
