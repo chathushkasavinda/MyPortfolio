@@ -362,77 +362,137 @@ z-index: 1;
 }
                                                 /*Resume elements*/
 
+#summary{
+    position: relative;
+    bottom: 71px;
+    z-index: 0;
+    background: rgb(33, 37, 41);
+    height: 925px;
+}
+#centerhead{
+    position: absolute;
+
+}
+#opacity_summary{
+    position: relative;
+    top: -169px ;
+    left: 483px ;
+    opacity: 10% ;
+    font-size: 75px ;
+    z-index: 1;
+}
+#line3{
+    position: relative;
+    top: -16px;
+    width: 220px;
+    left: 486px;
+    border: #07BC0C 2px solid;
+    z-index: 2;
+}
+#heading3{
+    position: relative;
+    font-size: 40px;
+    top: 9px;
+    left: 652px;
+    z-index: 3;
+}
+
+.education{
+    position: relative;
+    left: 175px;
+}  
+
+.work{
+    position: relative;
+    right: 125px;
+}
+
 .container{
     position: relative;
-    right: -125px;
+    right: -129px;
+    top: 120px;
 }
 
 .qualificationTopics{
-    padding-left: 400px;
+    padding-left: 525px;
 }
 
-                                                .qualification_tabs {
-                                                    display: flex;
-                                                    justify-content: space-evenly;
-                                                    margin-bottom: 2rem;
-                                                  }
-                                                  .qualification_button {
-                                                    font-size: 1.125rem;
-                                                    font-weight: 500;
-                                                    cursor: pointer;
-                                                  }
-                                                  .qualification_button:hover {
-                                                    color: hsl(230, 69%, 61%);
-                                                  }
-                                                  .qualification_icon {
-                                                    font-size: 1.8rem;
-                                                    margin-right: 0.25rem;
-                                                  }
-                                                  .qualification_data {
-                                                    display: grid;
-                                                    grid-template-columns: 1fr max-content 1fr;
-                                                    column-gap: 1.5rem;
-                                                  }
-                                                  .qualification_title {
-                                                    font-size: 0.938rem;
-                                                    font-weight: 500;
-                                                  }
-                                                  .qualification_subtitle {
-                                                    display: inline-block;
-                                                    font-size: small;
-                                                    margin-bottom: 1rem;
-                                                  }
-                                                  .qualification_calender {
-                                                    font-size: 1rem;
-                                                    color: hsl(230, 8%, 65%);
-                                                  }
-                                                  .qualification_rounder {
-                                                    display: inline-block;
-                                                    width: 13px;
-                                                    height: 13px;
-                                                    background-color: purple;
-                                                    border-radius: 50%;
-                                                  }
-                                                  .qualification_line {
-                                                    display: block;
-                                                    width: 1px;
-                                                    height: 100%;
-                                                    background-color: hsl(230, 69%, 61%);
-                                                    transform: translate(6px, -7px);
-                                                  }
-                                                  .qualification [data-content] {
-                                                    display: none;
-                                                  }
-                                                  .qualification_active[data-content] {
-                                                    display: block;
-                                                  }
-                                                  .qualification_button.qualification_active {
-                                                    color: hsl(230, 69%, 61%);
-                                                  }
-                                                  .chakrasamvara {
-                                                    text-transform: none;
-                                                    color: hsl(230, 92%, 85%);
-                                                  }                                                
+
+ .qualification_tabs {
+display: flex;
+justify-content: space-evenly;
+ margin-bottom: 2rem;
+ }
+
+.qualification_button {
+ font-size: 1.125rem;
+font-weight: 500;
+cursor: pointer;
+   }
+
+ .qualification_button:hover {
+ color: hsl(230, 69%, 61%);
+ }
+ 
+.qualification_icon {
+  font-size: 1.8rem;
+ margin-right: 0.25rem;
+ }
+
+.qualification_data {
+display: grid;
+grid-template-columns: 1fr max-content 1fr;
+column-gap: 1.5rem;
+  }
+ .qualification_title {
+font-size: 0.938rem;
+font-weight: 500;
+ }
+
+.qualification_subtitle {
+ display: inline-block;
+ font-size: small;
+ margin-bottom: 1rem;
+
+ }
+
+.qualification_calender {
+ font-size: 1rem;
+color: hsl(230, 8%, 65%);
+ }
+
+.qualification_rounder {
+ display: inline-block;
+width: 13px;
+height: 13px;
+background-color: purple;
+ border-radius: 50%;
+  }
+
+  .qualification_line {
+display: block;
+width: 1px;
+height: 100%;
+ background-color: hsl(230, 69%, 61%);
+ transform: translate(6px, -7px);
+ }
+
+.qualification [data-content] {
+display: none;
+ }
+
+ .qualification_active[data-content] {
+display: block;
+}
+
+.qualification_button.qualification_active {
+ color: hsl(230, 69%, 61%);
+}
+
+.chakrasamvara {
+text-transform: none;
+  color: hsl(230, 92%, 85%);
+  }                                                
 
 /* #opacity_summary{
     position: relative;
