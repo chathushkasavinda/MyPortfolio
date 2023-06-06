@@ -133,6 +133,10 @@ z-index: 1;
 
                                             /*About me page elements*/
 
+#listofcontactInfo{
+    position: relative;
+    right: 67px;
+} 
 .projectsDesc{
     color: white;
     font-weight: 500;
@@ -220,7 +224,7 @@ z-index: 1;
 #aboutMePage>div{
     font-size: 20px;
     position: relative;
-    left: 250px;
+    left: 209px;
     bottom: 50px;
 }
 #chathuska{
@@ -630,19 +634,34 @@ text-transform: none;
 }
                                                 /*Portfolio elements*/
 
+
+ #portfolio{
+    position: relative;
+    bottom: 98px;
+    /* z-index: 0; */
+    background: rgb(52, 58, 64);
+    height: 925px;
+ }
  #opacity_portfolio{
      position: relative;
-     bottom: 50px;
-     left: 40px;
+     bottom: 87px;
+     left: 143px;
      font-size: 75px;
      opacity: 10%;
  }
  #my_work{
      position: relative;
-     left: 60px;
+     left: 166px;
      font-size: 40px;
-     bottom: 50px;
-     top: 90px;
+     bottom: -52px;
+ }
+ #line4{
+    position: relative;
+    top: -181px;
+    width: 220px;
+    left: 163px;
+    border: #07BC0C 2px solid;
+    /* z-index: 2; */
  }
 #room_reservation>img{
     position: relative;
