@@ -1,0 +1,9 @@
+#case1{
+    height: 300px;
+    width: 275px;
+    background-color: aqua;
+}
+
+#case1 > h4{
+    font-size: 40px;
+}

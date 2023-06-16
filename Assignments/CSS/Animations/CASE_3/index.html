@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case Three</title>
+    <meta content="width=device-width initial-scale=1" name="viewport">
+    <link href="../../../../assets/css/normalize.css" rel="stylesheet">
+    <style>
+        main {
+            width: 900px;
+            height: 480px;
+            box-shadow: 1px 3px 5px 1px #736060;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            overflow-x: hidden;
+        }
+
+        main > section {
+            display: flex;
+            height: 100%;
+            width: 400%;
+            animation-name: my-animation;
+            animation-duration: 10s;
+            animation-delay: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        main > section > div {
+            height: 100%;
+            width: 100%;
+        }
+
+        main > section > div:nth-child(1) {
+            background: url("assets/img/shutterstock_108647036.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        main > section > div:nth-child(2) {
+            background: url("assets/img/shutterstock_109410320.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        main > section > div:nth-child(3) {
+            background: url("assets/img/shutterstock_109982438.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        main > section > div:nth-child(4) {
+            background: url("assets/img/shutterstock_145795217.jpg");
+            background-size: cover;
+            background-position: center;
+        }
+
+        @keyframes my-animation {
+            0%, 15% {
+                transform: translate(0);
+            }
+            25%, 40% {
+                transform: translate(-25%);
+            }
+            50%, 65% {
+                transform: translate(-50%);
+            }
+            85%, 100% {
+                transform: translate(-75%);
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<main>
+    <section>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </section>
+</main>
+
+</body>
+</html>
