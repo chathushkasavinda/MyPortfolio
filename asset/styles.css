@@ -747,6 +747,12 @@ text-transform: none;
     background-position: center;
 }
 
+#project > div:nth-child(5) > a > div {
+    background: url("assignments.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 #name1{
     position: relative;
     bottom: 340px;
@@ -756,22 +762,29 @@ text-transform: none;
 
 #name2{
     position: relative;
-    bottom: 375px;
+    bottom: 340px;
     left: 65px;
     font-size: 20px;
 }
 
 #name3{
     position: relative;
-    bottom: 375px;
+    bottom: 340px;
     left: 40px;
     font-size: 20px;
 }
 
 #name4{
     position: relative;
-    bottom: 380px;
+    bottom: 345px;
     left: 75px;
+    font-size: 20px;
+}
+
+#name5{
+    position: relative;
+    bottom: 345px;
+    left: 110px;
     font-size: 20px;
 }
                                             /*Testimonial elements*/
