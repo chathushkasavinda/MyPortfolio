@@ -8,6 +8,29 @@
     font-size: 40px;
 } */
 
+#nameofanimation{
+    position: relative;
+    left: 600px;
+    top: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#cssbasic{
+    position: relative;
+    left: 1%;
+    top: 100px;
+    width: 96%;
+    height: 50vh;
+    display: grid ;
+    align-content: space-around;
+    grid-template-columns: repeat(4,0fr);
+    grid-template-rows: repeat(3,fr);
+    grid-gap: 25px;
+    grid-row-gap: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(201 211 221);
+}
+
 #cssbasic > a {
     display: inline-block;
     width: max-content;
@@ -23,8 +46,8 @@
     border: #c05c5c solid 5px;
     box-shadow: 0px 0px 5px -1px black;
     transition: transform 1s;
-    height: 200px;
-    width: 300px;
+    height: 190px;
+    width: 290px;
     background-color: #233741;
 }
 
@@ -35,22 +58,130 @@
     height: 100%;
 }     
 
-#cssbasic > div:nth-child(1) > a > div {
-    background: url("blueOcean.png");
+/* #cssbasic > div:nth-child(1) > a > div {
+    background: url("pages/asset/images/assignment-modified.png");
     background-size: cover;
     background-position: center;
-}
+} */
 
 #name1{
-    font-size: 60px;
+    font-size: 25px;
     transform: rotate(-35deg);
     position: relative;
-    bottom: 40px;
+    bottom: 35px;
 }
 
 #name2{
-    font-size: 60px;
+    font-size: 25px;
     transform: rotate(-35deg);
     position: relative;
-    bottom: 40px;
+    bottom: 35px;
+}
+
+#name3{
+    font-size: 25px;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: 35px;
+}
+
+#name4{
+    font-size: 25px;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: 35px;
+}
+
+#nameofCSS{
+    position: relative;
+    left: 650px;
+    top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#fundamentalCSS{
+    position: relative;
+    left: 1%;
+    top: 20px;
+    width: 96%;
+    height: 100vh;
+    display: grid ;
+    align-content: space-around;
+    grid-template-columns: repeat(4,0fr);
+    grid-template-rows: repeat(3,fr);
+    grid-gap: 25px;
+    grid-row-gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(201 211 221);
+}
+
+#fundamentalCSS > a {
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+}
+
+#fundamentalCSS > div:hover {
+    transform: scale(1.075);    
+}
+
+#fundamentalCSS > div {
+    position: relative;
+    border-radius: 20px;
+    border: #c05c5c solid 5px;
+    box-shadow: 0px 0px 5px -1px black;
+    transition: transform 1s;
+    height: 190px;
+    width: 290px;
+    background-color: #233741;
+}
+
+#fundamentalCSS > div > a > div {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}   
+
+#name11{
+    font-size: 25px;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: 35px;
+}
+
+#name21{
+    font-size: 25px;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: 35px;
+}
+
+#name31{
+    font-size: 25px;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: 35px;
+}
+
+#name41{
+    font-size: 25px;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: 35px;
+}
+
+#name51{
+    font-size: 25px;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: 35px;
+}
+
+#name61{
+    font-size: 25px;
+    transform: rotate(-35deg);
+    position: relative;
+    bottom: 35px;
 }
