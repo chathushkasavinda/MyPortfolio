@@ -1,5 +1,5 @@
 body {
-    background: url("../img/background-img.png");
+    background: url("../img/cal.jpg");
     background-size: cover;
     width: 97vw;
     height: 98vh;
@@ -11,7 +11,7 @@ main{
 }
 
 #buttons {
-    background-image: linear-gradient(to left bottom, #ade8f4, #b5e6ff, #c9e2ff, #e4dcff, #ffd6ff);
+    background-image: linear-gradient(to left bottom,  #7DACE8, #678DBF, #537199, #364A63, #28374A);
 }
 
 .keys {
@@ -20,10 +20,11 @@ main{
     background-color: white;
     opacity: 70%;
     border: none;
+    border-radius: 0%;
 }
 
 .special{
-    background-image: linear-gradient(to right top, #7209b7, #e9007a, #ff3c2d, #f1a200, #a8eb12);
+    background-image: linear-gradient(to right top, #f4f7fc, #eaf0fa, #080a0e, #0b0e12, #0b0c0c);
     color: white;
     font-weight: bold;
 }
@@ -54,3 +55,4 @@ input:focus{
 .data{
     font-size: 20px;
 }
+

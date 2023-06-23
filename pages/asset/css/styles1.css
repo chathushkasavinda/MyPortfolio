@@ -109,9 +109,19 @@ header > div > h1 {
 }
 
 #assignment_section > div:nth-child(5) > a > div {
-    background: url("../../assets/img/portfolio/Assignment5.png");
+    position: relative;
+    bottom: 50px;
+    background: url("../../asset/images/calculator.png");
     background-size: cover;
     background-position: center;
+    z-index: 0;
+    opacity: 75%;
+}
+
+#namecal{
+    position: relative;
+    bottom: 2px;
+    z-index: 1;
 }
 
 #assignment_section > div:nth-child(6) > a > div {
