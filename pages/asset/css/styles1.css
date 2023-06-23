@@ -131,15 +131,32 @@ header > div > h1 {
 }
 
 #assignment_section > div:nth-child(7) > a > div {
-    background: url("../../assets/img/portfolio/Assignment7.png");
+    position: relative;
+    bottom: 50px;
+    background: url("../../asset/images/Knight.png");
     background-size: cover;
     background-position: left;
+    z-index: 0;
+}
+
+#nameknight{
+    position: relative;
+    bottom: 2px;
+    z-index: 1;
 }
 
 #assignment_section > div:nth-child(8) > a > div {
-    background: url("../../assets/img/portfolio/Assignment9.png");
+    position: relative;
+    bottom: 60px;
+    background: url("../../asset/images/Que.png");
     background-size: cover;
     background-position: center;
+}
+
+#nameQue{
+    position: relative;
+    bottom: 2px;
+    z-index: 1;
 }
 
 #assignment_section > div:nth-child(9) > a > div {
