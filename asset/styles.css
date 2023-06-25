@@ -283,7 +283,7 @@ z-index: 1;
     bottom: 100px;
     list-style-type: none;
    position: relative;
-   bottom: 230px;
+   bottom: 150px;
  }
  
 
@@ -787,36 +787,80 @@ text-transform: none;
     left: 110px;
     font-size: 20px;
 }
-                                            /*Testimonial elements*/
 
+                                            /* contactInfo elements */
 
-#opacity_Testimonial{
+#contactsec{
+position: relative;
+bottom: 150px;
+/* z-index: 0; */
+background: rgb(33, 37, 41);
+height: 925px;
+}                                          
+    
+#opacity_getIntouch{
     position: relative;
-    bottom: 50px;
-    left: 40px;
+    top: -9px;
+    left: 150px;
     font-size: 75px;
     opacity: 10%;
 }
-#client_speak{
-     position: relative;
-     left: 60px;
-     font-size: 40px;
-     bottom: 50px;
-     top: 90px;
- }
-#nipun{
+
+#contactInfo{
     position: relative;
-    left: 400px;
-    top: 100px;
-    width: 400px;
-    height: 300px;
-    background: gray;
+    left: -230px;
+    font-size: 40px;
+    top: -135px;
+    font-weight: bold;
 }
-#yasanga{
+#contact{
     position: relative;
-    left: 800px;
-    width: 400px;
-    height: 300px;
-    background: #74B9FF;
+    left: 275px;
+    bottom: 100px;
 }
+
+.textfield{
+    position: relative;
+    left: 648px;
+    bottom: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.inputbox input{
+    width: 40%;
+    padding: 15px;
+    border: 1px solid #c2c9cf;
+    background:rgb(33, 37, 41);
+    border-radius: 5px;
+    outline: none;
+    color: #ffffff;
+    font-size: 1em;
+}
+
+.inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    color: #c2c9cf;
+}
+
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span{
+    color: #27c742;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.80em;
+    padding: 0 10px;
+    background: rgb(33, 37, 41);
+    border-left: 1px solid #27c742;
+    border-right: 1px solid #27c742 ;
+    letter-spacing: 0.2em;
+}
+
+
+
+
+
 
