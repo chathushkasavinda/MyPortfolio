@@ -22,6 +22,21 @@
     background-color: black;
     z-index: 2;
 }
+
+#social{
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    display: flex;
+    gap: 20px;
+    color: #07BC0C;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+#social:hover{
+    color: #238616;
+}
 #profile_image{
     height: 24%;
     width: 64%;
@@ -796,7 +811,15 @@ bottom: 150px;
 /* z-index: 0; */
 background: rgb(33, 37, 41);
 height: 925px;
-}                                          
+}         
+
+#line5{
+    width: 300px;
+    position: relative;
+    bottom: 180px;
+    left: 160px;
+    border: #07BC0C 2px solid;
+}
     
 #opacity_getIntouch{
     position: relative;
@@ -810,19 +833,26 @@ height: 925px;
     position: relative;
     left: -230px;
     font-size: 40px;
-    top: -135px;
+    top: -130px;
     font-weight: bold;
 }
 #contact{
     position: relative;
     left: 275px;
     bottom: 100px;
+    color: #c2c9cf;
 }
-
+.textNote{
+    position: relative;
+    left: 375px;
+    bottom: 370px;
+    font-size: 1.5em;
+    color: #c0d3e2;
+}
 .textfield{
     position: relative;
     left: 648px;
-    bottom: 500px;
+    bottom: 480px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -846,7 +876,10 @@ height: 925px;
     pointer-events: none;
     color: #c2c9cf;
 }
-
+#tellus{
+    position: relative;
+    height: 100px;
+}
 .inputbox input:valid ~ span,
 .inputbox input:focus ~ span{
     color: #27c742;
