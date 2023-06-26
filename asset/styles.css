@@ -1,4 +1,12 @@
-                                          /*Main page elements*/
+/* Fonts */
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+  
+
+
+/*Main page elements*/
 #main_page{
     position: relative;
     height: 100vh;
@@ -10,32 +18,109 @@
 #nav_page{
     position: fixed;
     height: 100%;
-    width: 15%;
+    width: 17%;
     background-color: black;
+    z-index: 2;
+}
+
+#social{
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+    display: flex;
+    gap: 20px;
+    color: #07BC0C;
+    transition: color 0.2s;
+    text-decoration: none;
+}
+
+#social:hover{
+    color: #238616;
 }
 #profile_image{
-    width: 80%;
-    height: 25%;
-    padding: 10px 10px 10px 10px;
+    height: 24%;
+    width: 64%;
+    padding: 17px 10px 10px 50px;
 }
 #profile_name{
+    position: relative;
+    bottom: 20px;
     color: white;
     font-size: 30px;
     padding: 2px 5px 2px 20px;
+    text-align: center;
 }
 #menu_list{
+    position: relative;
+    bottom: 35px;
     color: white;
     list-style: none;
     font-size: 20px;
     padding: 5px 10px 10px 10px;
-    font-family: "Rage Italic";
+    
 }
 #menu_list>li>a{
     text-decoration: none;
+  background: transparent !important;
+      
+    
 }
 #menu_list>li{
     padding: 10px 10px 15px 10px;
+    text-align: center;
 }
+
+a:link{
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#welcome {
+    padding-top: 130px;
+    font-weight: 600;
+font-size: 50px;
+
+}
+
+#autoTyping{
+    font-size: 60px;
+    color: black;
+    z-index: 0;
+}
+
+#address{
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.hireMe{
+    border: 8px green solid;
+    border-radius: 50px;
+    margin-top: 30px;
+color: #000000;
+font-size: 20px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 12px;
+padding-right: 12px;
+z-index: 1;
+
+/* text-decoration: none; */
+
+}
+
+/* .homeBackgroundImg{
+    z-index: 2;
+} */
+
+/* .hireMe > a:visited{
+    color: green;
+} */
 
                                             /*Home page elements*/
 #home_page{
@@ -61,12 +146,99 @@
 
                                             /*About me page elements*/
 
+#listofcontactInfo{
+    position: relative;
+    right: 67px;
+} 
+.projectsDesc{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+}                                            
 
+.projectsNumber{
+    font-weight: 500;
+    font-size: 50px;
+}                                            
+
+.gmailColor{
+    color: #07BC0C;
+}  
+
+.green-button {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+
+.downloadCV{
+    color: white;
+    order: 8px green solid;
+    border-radius: 50px;
+    margin-top: 30px;
+color: #000000;
+font-size: 20px;
+z-index: 1;
+
+}
+
+
+.boldContactInfo{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.contactInfounderline{
+    border: 0.1px #c0d3e2 solid;
+    line-height: 15px;
+    width: 300px;
+   margin-left: 0px;
+   
+}
+.descParagraph{
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+}                                            
+
+
+ #aboutDescription{
+    color: hsla(0,0%,100%,.5);
+    margin-left: 50px;
+    
+ }                                           
+#line{
+    position: relative;
+    top: 100px;
+    width: 220px;
+  left: 60px;
+  border: #07BC0C 2px solid;
+}
+
+#boldName{
+    color: #07BC0C;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#aboutMePage{
+    background-color: #212529;
+    position: relative;
+    bottom: 27px;
+    color: #6c757d;
+   
+}
 #aboutMePage>div{
     font-size: 20px;
     position: relative;
-    left: 250px;
-    bottom: 150px;
+    left: 209px;
+    bottom: 50px;
 }
 #chathuska{
     color: green;
@@ -75,35 +247,653 @@
     position: relative;
     left: 60px;
     font-size: 40px;
+    top: 120px;
+    color: white;
 }
 #opacity_about_me{
     position: relative;
-    bottom: 130px;
+    bottom: 50px;
+    left: 40px;
+    font-size: 75px;
+    opacity: 10%;
+    color: #6C757D;
+}
+#contactInfo{
+    position: relative;
+    bottom: 300px;
+    left: 100px;
+    padding: 5px 10px 10px 10px;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 800px;
+     top: -320px;
+    
+}
+ #contactInfo>li{
+    padding: 10px 10px 10px 10px;
+   
+    
+} 
+
+#contactInfo > ul {
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 15px;
+    
+}
+
+#contactInfo > ul > li {
+    line-height: 30px;
+}
+
+ #projectsInfo{
+    display: flex;
+    align-items: center;
+     justify-content:space-evenly; 
+    flex-wrap: wrap;
+    position: relative;
+    left: 100px;
+    bottom: 100px;
+    list-style-type: none;
+   position: relative;
+   bottom: 150px;
+ }
+ 
+
+#projectInfo>li {
+    list-style-type: none;
+}
+
+
+                                          /* What I do page*/
+#services1 > ul >li , #services2 > ul >li{
+    list-style-type: none;
+    margin-bottom: 70px;
+}
+                                        
+
+/* #services2 {
+    position: relative;
+   bottom: 373px;
+   left: 800px;
+} */
+
+#line2{
+    position: relative;
+    top: 41px;
+    width: 220px;
+    left: 60px;
+    border: #07BC0C 2px solid;
+}                                          
+
+#What_I_Do_Page{
+    background-color: #343A40;
+    height: 800px;
+    position: relative;
+    bottom: 71px;
+    z-index: 1;
+}
+
+#heading2{
+    position: relative;
+    left: 60px;
+    font-size: 40px;
+    bottom: 50px;
+    top: 56px;
+    color: white;
+}
+#opacity_What_I_do{
+    position: relative;
+    bottom: 116px;
+    left: 61px;
+    font-size: 75px;
+    opacity: 10%;
+}
+#services1{
+    position: relative;
+    bottom: 100px;
+    left: 260px;
+}
+#services2{
+    position: relative;
+    bottom: 580px;
+    left: 800px;
+}
+
+.faIcons{
+    color: #07BC0C;
+    background-color: black;
+    font-weight: 100;
+   
+}
+
+.serviceTopic{
+    color: white;
+    font-size: 20px;
+}
+
+.serviceDesc{
+    color: hsla(0,0%,100%,.5);
+}
+                                                /*Resume elements*/
+
+#summary{
+    position: relative;
+    bottom: 71px;
+    z-index: 0;
+    background: rgb(33, 37, 41);
+    height: 925px;
+}
+#centerhead{
+    position: absolute;
+
+}
+#opacity_summary{
+    position: relative;
+    top: -169px ;
+    left: 483px ;
+    opacity: 10% ;
+    font-size: 75px ;
+    z-index: 1;
+}
+#line3{
+    position: relative;
+    top: -16px;
+    width: 220px;
+    left: 486px;
+    border: #07BC0C 2px solid;
+    z-index: 2;
+}
+#heading3{
+    position: relative;
+    font-size: 40px;
+    top: 9px;
+    left: 652px;
+    z-index: 3;
+}
+
+.education{
+    position: relative;
+    left: 175px;
+}  
+
+.work{
+    position: relative;
+    right: 125px;
+}
+
+.container{
+    position: relative;
+    right: -129px;
+    top: 120px;
+}
+
+.qualificationTopics{
+    padding-left: 525px;
+}
+
+
+ .qualification_tabs {
+display: flex;
+justify-content: space-evenly;
+ margin-bottom: 2rem;
+ }
+
+.qualification_button {
+ font-size: 1.125rem;
+font-weight: 500;
+cursor: pointer;
+   }
+
+ .qualification_button:hover {
+ color: hsl(230, 69%, 61%);
+ }
+ 
+.qualification_icon {
+  font-size: 1.8rem;
+ margin-right: 0.25rem;
+ }
+
+.qualification_data {
+display: grid;
+grid-template-columns: 1fr max-content 1fr;
+column-gap: 1.5rem;
+  }
+ .qualification_title {
+font-size: 0.938rem;
+font-weight: 500;
+ }
+
+.qualification_subtitle {
+ display: inline-block;
+ font-size: small;
+ margin-bottom: 1rem;
+
+ }
+
+.qualification_calender {
+ font-size: 1rem;
+color: hsl(230, 8%, 65%);
+ }
+
+.qualification_rounder {
+ display: inline-block;
+width: 13px;
+height: 13px;
+background-color: purple;
+ border-radius: 50%;
+  }
+
+  .qualification_line {
+display: block;
+width: 1px;
+height: 100%;
+ background-color: hsl(230, 69%, 61%);
+ transform: translate(6px, -7px);
+ }
+
+.qualification [data-content] {
+display: none;
+ }
+
+ .qualification_active[data-content] {
+display: block;
+}
+
+.qualification_button.qualification_active {
+ color: hsl(230, 69%, 61%);
+}
+
+.chakrasamvara {
+text-transform: none;
+  color: hsl(230, 92%, 85%);
+  }                                                
+
+/* #opacity_summary{
+    position: relative;
+    bottom: 50px;
     left: 40px;
     font-size: 75px;
     opacity: 10%;
 }
-#contactInfo{
+#heading3{
     position: relative;
-    bottom: 420px;
-    left: 1000px;
-    /*padding: 5px 10px 10px 10px;*/
+    left: 60px;
+    font-size: 40px;
+    bottom: 50px;
+    top: 90px;
 }
-#contactInfo>li{
-    padding: 10px 10px 10px 10px;
+#summary{
+    background: gray;
+    height: 800px;
+    position: relative;
+    /*top: 10px;*/
+    /* bottom: 99px; */
+/* } */
+/* #education_details1{
+    background: #D3F3E0;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    left: 200px;
 }
-
-#projectsInfo{
+#education_details1>p{
+    background: #141414;
+    border-radius: 40%;
+    width: 35%;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+#GCE{
+    position: relative;
+    right: 30px;
+}
+#education_details2{
+    background: #D3F3E0;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    left: 200px;
+}
+#education_details2>p{
+    background: #55F5C5;
+    border-radius: 40%;
+    width: 35%;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+#education{
     position: relative;
     left: 100px;
+    bottom: 100px;
+}
+#my_education{
+    position: relative;
+    left: 300px;
+    bottom: 100px;
+}
+#experience_details1{
+    background: #D3F3E0;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    left: 200px;
+}
+#experience_details1>p{
+    background: #55F5C5;
+    border-radius: 40%;
+    width: 35%;
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+#experience{
+    position: relative;
+    left: 600px;
+    bottom: 425px;
+}
+#my_experience{
+    position: relative;
+    left: 800px;
+    bottom: 425px;
+}
+#experience_details2{
+    background: #D3F3E0;
+    width: 300px;
+    height: 120px;
+    position: relative;
+    left: 200px;
+    z-index: 2;
+}
+#experience_details2>p{
+    background: #55F5C5;
+    border-radius: 40%;
+    width: 35%;
+    position: relative;
+    left: 5px;
+    top: 10px; */
+*/
+                                          /*Skills Elements*/
+/*#skills{
+    position: relative;
+    left: 100px;
+    bottom: 200px;
+}*/
+#my_skills{
+    position: relative;
+    left: 300px;
     bottom: 300px;
 }
-#projectsInfo{
+#skills_1{
+    position: relative;
+    left: 200px;
+    bottom: 300px;
+}
+#skills_2{
+    position: relative;
+    left: 900px;
+    bottom: 400px;
+}
+#radius{
+    border-radius: 100%;
+    border: solid white;
+    background: #55F5C5;
+    width: 200px;
+    height: 20px;
+}
+                                                /*Portfolio elements*/
+
+
+ #portfolio{
+    position: relative;
+    bottom: 98px;
+    /* z-index: 0; */
+    background: rgb(52, 58, 64);
+    height: 925px;
+ }
+ #opacity_portfolio{
+     position: relative;
+     bottom: 87px;
+     left: 143px;
+     font-size: 75px;
+     opacity: 10%;
+ }
+ #my_work{
+     position: relative;
+     left: 166px;
+     font-size: 40px;
+     bottom: -52px;
+ }
+ #line4{
+    position: relative;
+    top: -181px;
+    width: 220px;
+    left: 163px;
+    border: #07BC0C 2px solid;
+    /* z-index: 2; */
+ }
+#room_reservation>img{
+    position: relative;
+    padding: 10px 0px 0px 10px;
+}
+#room_reservation{
+    position: relative;
+    width: 210px;
+    height: 260px;
+    background: gray;
+    left: 290px;
+}
+
+#connect_for_game{
+    position: relative;
+    width: 210px;
+    height: 260px;
+    background: gray;
+    left: 290px;
+}
+
+#project{
+    position: relative;
+    left: 8%;
+    top:-100px;
+    width: 70%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,fr);
+    grid-gap: 20px;
+    grid-row-gap: 75px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(52, 58, 64);
+}
+
+
+
+#project > a {
+    display: inline-block;
+    width: max-content;
+    height: max-content;
+}
+#project > div:hover {
+    transform: scale(1.075);
+}
+
+#project > div {
+    position: relative;
+    border-radius: 20px;
+    border: #ffffff solid 5px;
+    box-shadow: 0px 0px 5px -1px black;
+    transition: transform 1s;
+}
+
+#project > div > a > div {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#project > div:nth-child(2) > a > div {
+    background: url("connet\ for\ game.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#project > div:nth-child(1) > a > div {
+    background: url("blueOcean.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#project > div:nth-child(3) > a > div {
+    background: url("garment.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+#project > div:nth-child(4) > a > div {
+    background: url("chatapp1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#project > div:nth-child(5) > a > div {
+    background: url("assignments.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#name1{
+    position: relative;
+    bottom: 340px;
+    left: 65px;
+    font-size: 20px;
+}
+
+#name2{
+    position: relative;
+    bottom: 340px;
+    left: 65px;
+    font-size: 20px;
+}
+
+#name3{
+    position: relative;
+    bottom: 340px;
+    left: 40px;
+    font-size: 20px;
+}
+
+#name4{
+    position: relative;
+    bottom: 345px;
+    left: 75px;
+    font-size: 20px;
+}
+
+#name5{
+    position: relative;
+    bottom: 345px;
+    left: 110px;
+    font-size: 20px;
+}
+
+                                            /* contactInfo elements */
+
+#contactsec{
+position: relative;
+bottom: 150px;
+/* z-index: 0; */
+background: rgb(33, 37, 41);
+height: 925px;
+}         
+
+#line5{
+    width: 300px;
+    position: relative;
+    bottom: 180px;
+    left: 160px;
+    border: #07BC0C 2px solid;
+}
+    
+#opacity_getIntouch{
+    position: relative;
+    top: -9px;
+    left: 150px;
+    font-size: 75px;
+    opacity: 10%;
+}
+
+#contactInfo{
+    position: relative;
+    left: -230px;
+    font-size: 40px;
+    top: -130px;
+    font-weight: bold;
+}
+#contact{
+    position: relative;
+    left: 275px;
+    bottom: 100px;
+    color: #c2c9cf;
+}
+.textNote{
+    position: relative;
+    left: 375px;
+    bottom: 370px;
+    font-size: 1.5em;
+    color: #c0d3e2;
+}
+.textfield{
+    position: relative;
+    left: 648px;
+    bottom: 480px;
     display: flex;
-    /*align-items: center;*/
-    justify-content:space-evenly;
-    /*flex-wrap: wrap*/;
+    flex-direction: column;
+    gap: 30px;
 }
-#projectsInfo>ul>li{
-    list-style-type: none;
+
+.inputbox input{
+    width: 40%;
+    padding: 15px;
+    border: 1px solid #c2c9cf;
+    background:rgb(33, 37, 41);
+    border-radius: 5px;
+    outline: none;
+    color: #ffffff;
+    font-size: 1em;
 }
+
+.inputbox span {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    color: #c2c9cf;
+}
+#tellus{
+    position: relative;
+    height: 100px;
+}
+.inputbox input:valid ~ span,
+.inputbox input:focus ~ span{
+    color: #27c742;
+    transform: translateX(10px) translateY(-7px);
+    font-size: 0.80em;
+    padding: 0 10px;
+    background: rgb(33, 37, 41);
+    border-left: 1px solid #27c742;
+    border-right: 1px solid #27c742 ;
+    letter-spacing: 0.2em;
+}
+
+
+
+
+
+

@@ -1,0 +1,75 @@
+body {
+    background: url("../img/pos.jpg");
+    background-size: cover;
+    background-position: right;
+}
+
+main{
+    position: relative;
+    bottom: 95px;
+    height: 130vh;
+}
+
+.red-button {
+    background: #E94F5B;
+    border: #E94F5B;
+}
+
+.red-text{
+    color: #E94F5B;
+}
+
+i:hover{
+    cursor: pointer;
+}
+
+.overflow-x{
+    overflow-x: hidden !important;
+}
+
+
+#btnDashboard{
+    font-family:fantasy;
+    /* color:rgb(157 155 55); */
+    background-color: rgb(221, 219, 112);
+    
+}
+#btnCustomer{
+    font-family:fantasy;
+    background-color:rgb(221, 219, 112);
+}
+
+#btnItems{
+    font-family:fantasy;
+    background-color:rgb(221, 219, 112);
+}
+
+#btnOrders{
+    font-family:fantasy;
+    background-color:rgb(221, 219, 112);
+}
+
+#btnOrderDetails{
+    font-family:fantasy;
+    background-color:rgb(221, 219, 112);
+}
+
+#orderSearch{
+    /* border-radius: 10%; */
+    background-color: #d6c911;
+}
+/* #btnAddNewCustomer{
+    background-color: #E94F5B;
+} */
+
+@media all and (min-width: 0) and (max-width: 768px){
+    .full-height{
+        height: 100vh !important;
+    }
+    .extra-height{
+        height: 190vh !important;
+    }
+    .margin{
+        margin-bottom: 5px;
+    }
+}

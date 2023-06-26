@@ -1,0 +1,58 @@
+body {
+    background: url("../img/cal.jpg");
+    background-size: cover;
+    width: 97vw;
+    height: 98vh;
+}
+
+main{
+    height: 600px;
+    width: 320px;
+}
+
+#buttons {
+    background-image: linear-gradient(to left bottom,  #7DACE8, #678DBF, #537199, #364A63, #28374A);
+}
+
+.keys {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    opacity: 70%;
+    border: none;
+    border-radius: 0%;
+}
+
+.special{
+    background-image: linear-gradient(to right top, #f4f7fc, #eaf0fa, #080a0e, #0b0e12, #0b0c0c);
+    color: white;
+    font-weight: bold;
+}
+
+.special:hover{
+    color: black !important;
+    border: 1px solid black !important;
+}
+
+input:focus{
+    border: none;
+}
+
+.keys:hover {
+    color: #3A86FF;
+    border: 1px solid #3A86FF;
+    font-weight: bold;
+}
+
+.display {
+    border: none;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.data{
+    font-size: 20px;
+}
+
