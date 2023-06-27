@@ -160,9 +160,13 @@ header > div > h1 {
 }
 
 #assignment_section > div:nth-child(9) > a > div {
-    background: url("../../assets/img/portfolio/Assignment8.png");
+    background: url("");
     background-size: cover;
     background-position: left;
+}
+
+#nametransitions{
+
 }
 
 #assignment_section > div:nth-child(10) > a > div {
@@ -172,7 +176,7 @@ header > div > h1 {
 }
 
 #assignment_section > div:nth-child(11) > a > div {
-    background: url("../../assets/img/portfolio/Assignment11.png");
+    background: url("../../asset/images/Transitions1.png");
     background-size: cover;
     background-position: center;
 }
