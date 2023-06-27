@@ -24,6 +24,7 @@
 
 </head>
 <body>
+  <div id="preloader"></div>
     <section id="main_page">
         <section id="nav_page">
           <div id="dp">
@@ -661,6 +662,10 @@
 
   <!-- Setup and start animation! -->
   <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load",function(){
+      loader.style.display = "none";
+    })
     var typed = new Typed('#autoTyping', {
       strings: ['I am Chathushka Savinda.', 'I	&apos;m a FullStack Developer.', 'I &apos;m a Freelancer. '],
       typeSpeed: 100,
