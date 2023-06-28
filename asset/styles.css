@@ -210,7 +210,10 @@ z-index: 1;
 
  #aboutDescription{
     color: hsla(0,0%,100%,.5);
-    margin-left: 50px;
+    /* margin-left: 50px; */
+    bottom: 28%;
+    left: 20%;
+    width: 47%;
     
  }                                           
 #line{
@@ -232,13 +235,15 @@ z-index: 1;
     position: relative;
     bottom: 27px;
     color: #6c757d;
+    height: 800px;
    
 }
 #aboutMePage>div{
     font-size: 20px;
-    position: relative;
-    left: 209px;
-    bottom: 50px;
+    position: absolute;
+    /* left: 209px; */
+    /* bottom: 50px; */
+    /* width: 81%; */
 }
 #chathuska{
     color: green;
@@ -254,22 +259,24 @@ z-index: 1;
     position: relative;
     width: 80%;
     bottom: 50px;
-    left: 0px;
+    left: 52px;
     font-size: 75px;
     opacity: 10%;
     color: #6C757D;
 }
 #contactInfo{
-    position: relative;
-    bottom: 300px;
-    left: 100px;
-    padding: 5px 10px 10px 10px;
-    display: flex;
+    /* position: relative; */
+    /* bottom: 300px; */
+    left: 71%;
+    /* padding: 5px 10px 10px 10px; */
+    /* display: flex; */
     align-content: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding-left: 800px;
-     top: -320px;
+    /* padding-left: 800px; */
+     top: 35%;
+     width: 28%;
+     height: 300px;
     
 }
  #contactInfo2>li{
@@ -294,12 +301,13 @@ z-index: 1;
     align-items: center;
      justify-content:space-evenly; 
     flex-wrap: wrap;
-    position: relative;
+    position: absolute;
     left: 100px;
-    bottom: 100px;
+    /* bottom: 100px; */
     list-style-type: none;
-   position: relative;
-   bottom: 150px;
+   /* position: relative; */
+   bottom: 81px;
+   width: 90%;
  }
  
 
@@ -353,14 +361,16 @@ z-index: 1;
     opacity: 10%;
 }
 #services1{
-    position: relative;
+    position: absolute;
     bottom: 100px;
     left: 260px;
+    width: 52%;
 }
 #services2{
-    position: relative;
-    bottom: 580px;
+    position: absolute;
+    bottom: 100px;
     left: 800px;
+    width: 43%;
 }
 
 .faIcons{
@@ -427,8 +437,10 @@ z-index: 1;
 
 .container{
     position: relative;
-    right: -129px;
+    right: 0px;
     top: 120px;
+    width: 92%;
+    margin-left: 130px;
 }
 
 .qualificationTopics{
@@ -591,7 +603,7 @@ text-transform: none;
 
 #project{
     position: relative;
-    left: 8%;
+    left: -5%;
     top:-100px;
     width: 70%;
     height: 100vh;
@@ -601,7 +613,7 @@ text-transform: none;
     grid-gap: 20px;
     grid-row-gap: 75px;
     margin-left: auto;
-    margin-right: auto;
+    /* margin-right: auto; */
     background-color: rgb(52, 58, 64);
 }
 
@@ -622,6 +634,7 @@ text-transform: none;
     border: #ffffff solid 5px;
     box-shadow: 0px 0px 5px -1px black;
     transition: transform 1s;
+    height: 275px;
 }
 
 #project > div > a > div {
@@ -712,6 +725,7 @@ height: 750px;
     bottom: 180px;
     left: 160px;
     border: #07BC0C 2px solid;
+    top: -163px;
 }
     
 #opacity_getIntouch{
@@ -724,13 +738,13 @@ height: 750px;
 
 #contactInfo2{
     position: relative;
-    left: -230px;
+    left: 160px;
     font-size: 40px;
     top: -130px;
     font-weight: bold;
 }
 #contact{
-    position: relative;
+    position: absolute;
     left: 275px;
     bottom: 100px;
     color: #c2c9cf;
@@ -743,16 +757,17 @@ height: 750px;
     color: #c0d3e2;
 }
 .textfield{
-    position: relative;
+    position: absolute;
+    width: 43%;
     left: 648px;
-    bottom: 480px;
+    bottom: 246px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
 .inputbox input{
-    width: 40%;
+    width: 93%;
     padding: 15px;
     border: 1px solid #c2c9cf;
     background:rgb(33, 37, 41);
@@ -794,9 +809,9 @@ height: 750px;
     background-color: #55F5C5;
 } */
 #sendbutton{
-    position: relative;
+    position: absolute;
     left: 650px;
-    bottom: 420px;
+    bottom: 120px;
     width: 16%;
     height: 8%;
     border-radius:50px ;
@@ -806,31 +821,32 @@ height: 750px;
 }
 
 #mepic{
-    position: relative;
+    position: absolute;
     left: 312px;
-    bottom: -16px;
+    bottom: 100px;
     border-radius: 70%;
-    padding: 0px 20px ;
+    padding: 0px 20px;
     width: 142px;
     height: 157px;
 }
 
 footer > section{
-    position: relative;
+    position: absolute;
     left: 516px;
-    bottom: 148px;
+    bottom: 154px;
+    width: 53%;
 }
 
 footer > aside{
-    position: relative;
-    left: 55%;
-    bottom: 55%;
+    position: absolute;
+    left: 42%;
+    bottom: 10%;
 }
 
 footer > p {
-    position: relative;
+    position: absolute;
     left: 517px;
-    bottom: 147px;
+    bottom: 124px;
 }
 
 footer {
@@ -841,11 +857,11 @@ footer {
 }
 
 #footersocial{
-    position: relative;
+    position: absolute;
     width: 10%;
     height: 20%;
     left: 516px;
-    bottom: 55%;
+    bottom: 25%;
     display: flex;
     gap: 20px;
 }
@@ -863,7 +879,7 @@ footer {
 
  }
 
- @media screen and (max-width: 1900px) {
+ @media screen and (max-width: 768px) {
 
     html {
         width: auto;
@@ -874,8 +890,160 @@ footer {
     }
 
     body {
+        width: 150%;
+    }
+
+    #main_page {
+        width: 100%;
+        height: 70%;
+    }
+
+    #nav_page {
+        position: fixed;
+        height: 5%;
+        width: 100%;
+        background-color: black;
+        /* z-index: 2; */
+    }
+
+    #dp{
+        width: 50px;
+        height: 50px;
+    }
+
+    #profile_image {
+        width: 100%;
+        height: 100%;
+        padding: 17px 10px 15px 20px;
+    }
+
+    #nav_page>b {
+        display: none;
+    }
+
+    #menu_list {
+        display: flex;
+        top: -54px;
+        left: 465px;
+    }
+
+    #social {
+        display: none;
+    }
+
+    #home_page {
+        width: 150%;
+        left: 0%;
+        height: 58%;
+    }
+
+    .hireMe {
+        position: relative;
+        left: 45%;
+        top: 5%;
+    }
+
+    #aboutDescription {
+        bottom: 28%;
+        left: 21%;
+        width: 60%;
+    }
+
+    #contactInfo {
+        display: none;
+    }
+
+    #projectsInfo {
+        left: 0;
+    }
+
+    #about-title{
+        left: 20%;
+    }
+
+    #services1 {
+        
+        /* bottom: 100px; */
+        left: 100px;
+        width: 52%;
+    }
+
+    #services2 {
+        
+        bottom: 69px;
+        left: 617px;
+        width: 43%;
+    }
+
+    #centerhead {
+        right: 28%;
+    }
+
+    #line3 {
+        left: 0%;
+    }
+
+    #heading3 {
+        left: 33%;
+    }
+
+    #opacity_summary {
+        left: 0%;
+    }
+
+    .container {
+        position: absolute;
+        margin-left: 0;
         width: 100%;
     }
+
+    #portfolio {
+        height: 1300px;
+    }
+
+    #project {
+        left: -14%;
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    #contact {
+        display: none;
+    }
+
+    .textfield {
+        width: 80%;
+        left: 12%;
+    }
+
+    #sendbutton {
+        left: 42%;
+    }
+
+    #mepic {
+        left: 10%;
+        bottom: 44%;
+    }
+
+    footer > section {
+        left: 30%;
+        bottom: 59%;
+    }
+
+    footer > p {
+        left: 30%;
+        bottom: 50%;
+    }
+
+    #footersocial {
+        left: 30%;
+        bottom: 28%;
+    }
+
+    footer > aside {
+        bottom: 20%;
+        left: 26%;
+    }
+
  }
 
 
