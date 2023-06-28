@@ -1,13 +1,37 @@
-# HTML-Core
-This is for demonstrating HTML elements
-<h3>Functional Groups</h3>
-<ul>
-    <li>Main Root</li>
-    <li>Meta Data</li>
-    <li>Sectioning Root</li>
-    <li>Content Sectioning</li>
-    <li>Text Content</li>
-    <li>Inline Text Semantics</li>
-</ul>
+ #  🧑🏻‍💻My Portfolio🕶️
+ ---
+  
+ ###  Technology & Frameworks
+  
+ * HTML
+ * CSS
+ * Java Script
+ * Jquery
+ * Bootstrap 
+ ---
 
-<a href="https://drive.google.com/file/d/1CqRnljzXDuBS6FDNA9hNzPRK2-AjJS4O/view?usp=sharing">Vist The Board</a>
+
+ ![Image Link](https://github.com/chathushkasavinda/MyPortfolio/blob/master/SS1.png)
+
+
+ ### References 
+ #### ✒️   Site Map URL: https://drive.google.com/file/d/1WhRgQbZAzRnMFj_Ov-kuQ5VumPS9E5K-/view?usp=sharing
+
+ ####  ☑️ Wireframe URL: https://drive.google.com/file/d/10HhN3SzngPFlp6X5LVFmHFUXHd_VVAJR/view?usp=sharing
+
+ #### 📘 MockUp URL: https://www.figma.com/file/OLadVfRjk71SVpegcEc5Z6/Untitled?node-id=0%3A1&t=JfHPdrEA9ugJHqU6-1
+
+ #### 🎯Github page URL:https://github.com/chathushkasavinda/MyPortfolio/deployments/activity_log?environment=github-pages
+ 
+ ---
+
+ 
+ ![Image Link](https://github.com/chathushkasavinda/MyPortfolio/blob/master/SS2.png)
+
+ 
+
+
+
+ 
+ 
+
