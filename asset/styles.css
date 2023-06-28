@@ -102,18 +102,25 @@ font-size: 50px;
     border: 8px green solid;
     border-radius: 50px;
     margin-top: 30px;
-    color: #000000;
-    font-size: 20px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 12px;
-    padding-right: 12px;
-    z-index: 1;
-    position: relative;
-    left: 45%;
-    text-decoration: none;
+color: #000000;
+font-size: 20px;
+padding-top: 8px;
+padding-bottom: 8px;
+padding-left: 12px;
+padding-right: 12px;
+z-index: 1;
+
+/* text-decoration: none; */
 
 }
+
+/* .homeBackgroundImg{
+    z-index: 2;
+} */
+
+/* .hireMe > a:visited{
+    color: green;
+} */
 
                                             /*Home page elements*/
 #home_page{
@@ -172,7 +179,7 @@ font-size: 50px;
 
 .downloadCV{
     color: white;
-    order: 8px green solid;
+    border: 8px green solid;
     border-radius: 50px;
     margin-top: 30px;
 color: #000000;
@@ -245,8 +252,9 @@ z-index: 1;
 }
 #opacity_about_me{
     position: relative;
+    width: 80%;
     bottom: 50px;
-    left: 40px;
+    left: 0px;
     font-size: 75px;
     opacity: 10%;
     color: #6C757D;
@@ -264,20 +272,20 @@ z-index: 1;
      top: -320px;
     
 }
- #contactInfo>li{
+ #contactInfo2>li{
     padding: 10px 10px 10px 10px;
    
     
 } 
 
-#contactInfo > ul {
+#contactInfo2 > ul {
     list-style-type: none;
     font-weight: 300;
     font-size: 15px;
     
 }
 
-#contactInfo > ul > li {
+#contactInfo2 > ul > li {
     line-height: 30px;
 }
 
@@ -305,6 +313,13 @@ z-index: 1;
     list-style-type: none;
     margin-bottom: 70px;
 }
+                                        
+
+/* #services2 {
+    position: relative;
+   bottom: 373px;
+   left: 800px;
+} */
 
 #line2{
     position: relative;
@@ -398,7 +413,6 @@ z-index: 1;
     top: 9px;
     left: 652px;
     z-index: 3;
-    color: white;
 }
 
 .education{
@@ -432,7 +446,6 @@ justify-content: space-evenly;
  font-size: 1.125rem;
 font-weight: 500;
 cursor: pointer;
-color: #a369b1;
    }
 
  .qualification_button:hover {
@@ -452,15 +465,12 @@ column-gap: 1.5rem;
  .qualification_title {
 font-size: 0.938rem;
 font-weight: 500;
-color: white;
-font-size: 18px;
  }
 
 .qualification_subtitle {
  display: inline-block;
  font-size: small;
  margin-bottom: 1rem;
- color: wheat;
 
  }
 
@@ -502,7 +512,8 @@ text-transform: none;
   color: hsl(230, 92%, 85%);
   }                                                
 
-*/
+
+
                                           /*Skills Elements*/
 
 #my_skills{
@@ -549,7 +560,6 @@ text-transform: none;
      left: 166px;
      font-size: 40px;
      bottom: -52px;
-     color: white;
  }
  #line4{
     position: relative;
@@ -587,7 +597,7 @@ text-transform: none;
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,fr);
+    grid-template-rows: repeat(3,0fr);
     grid-gap: 20px;
     grid-row-gap: 75px;
     margin-left: auto;
@@ -622,7 +632,7 @@ text-transform: none;
 }
 
 #project > div:nth-child(2) > a > div {
-    background: url("connet\ for\ game.jpg");
+    background: url("connet-for-game.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -656,7 +666,6 @@ text-transform: none;
     bottom: 340px;
     left: 65px;
     font-size: 20px;
-    color: white;
 }
 
 #name2{
@@ -664,8 +673,6 @@ text-transform: none;
     bottom: 340px;
     left: 65px;
     font-size: 20px;
-    color: white;
-    
 }
 
 #name3{
@@ -673,23 +680,20 @@ text-transform: none;
     bottom: 340px;
     left: 40px;
     font-size: 20px;
-    color: white;
 }
 
 #name4{
     position: relative;
     bottom: 345px;
-    left: 70px;
+    left: 75px;
     font-size: 20px;
-    color: white;
 }
 
 #name5{
     position: relative;
     bottom: 345px;
-    left: 80px;
+    left: 110px;
     font-size: 20px;
-    color: white;
 }
 
                                             /* contactInfo elements */
@@ -705,14 +709,14 @@ height: 750px;
 #line5{
     width: 300px;
     position: relative;
-    bottom: 143px;
-    left: 154px;
+    bottom: 180px;
+    left: 160px;
     border: #07BC0C 2px solid;
 }
     
 #opacity_getIntouch{
     position: relative;
-    top: 20px;
+    top: -9px;
     left: 150px;
     font-size: 75px;
     opacity: 10%;
@@ -720,11 +724,10 @@ height: 750px;
 
 #contactInfo2{
     position: relative;
-    left: 146px;
+    left: -230px;
     font-size: 40px;
-    top: -96px;
+    top: -130px;
     font-weight: bold;
-    color: white;
 }
 #contact{
     position: relative;
@@ -781,7 +784,15 @@ height: 750px;
     border-right: 1px solid #27c742 ;
     letter-spacing: 0.2em;
 }
-
+/* footer{
+    position: relative;
+    bottom: 50%;
+    width: 100%;
+    height: 50%;
+    position: relative;
+    bottom: 10%;
+    background-color: #55F5C5;
+} */
 #sendbutton{
     position: relative;
     left: 650px;
@@ -808,7 +819,6 @@ footer > section{
     position: relative;
     left: 516px;
     bottom: 148px;
-    color: #ffffff;
 }
 
 footer > aside{
@@ -843,24 +853,6 @@ footer {
     height: 85vh;
  }
 
- /* Hide the default scrollbar */
-body::-webkit-scrollbar {
-    width: 0.5em;
-  }
-  
-  body::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: #888;
-  }
-  
-  body::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
-  }
-  
-
  #preloader{
     background: #ffffff url(preloader4.gif) no-repeat center center;
     background-size: 15%;
@@ -868,54 +860,23 @@ body::-webkit-scrollbar {
     width: 100%;
     position: fixed;
     z-index: 100;
+
  }
 
+ @media screen and (max-width: 1900px) {
 
-/* //////////////////////////////////////////////// */
+    html {
+        width: auto;
+    }
 
-/* Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+    header {
+        width: 100%;
+    }
 
-/* Main page elements */
-#main_page {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  top: 0;
-}
+    body {
+        width: 100%;
+    }
+ }
 
-/* ... rest of the code ... */
-
-/* Media Queries */
-
-
-@media only screen and (max-width: 767px) {
-  
-
-  
-  #nav_page {
-    display: none;
-  }
-
- 
-  #welcome {
-    font-size: 40px;
-  }
-
-}
-/* 
-@media only screen and (min-width: 1201px) {
-  
-
-  #home_page {
-    width: 90%;
-    left: 5%;
-  }
-
-  #profile_name {
-    font-size: 35px;
-  }
-
-} */
 
 
