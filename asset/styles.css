@@ -369,7 +369,7 @@ z-index: 1;
 #services2{
     position: absolute;
     bottom: 100px;
-    left: 800px;
+    left: 57%;
     width: 43%;
 }
 
@@ -403,8 +403,9 @@ z-index: 1;
 }
 #opacity_summary{
     position: relative;
+    width: -4%;
     top: -169px ;
-    left: 483px ;
+    left: 100% ;
     opacity: 10% ;
     font-size: 75px ;
     z-index: 1;
@@ -413,15 +414,16 @@ z-index: 1;
     position: relative;
     top: -16px;
     width: 220px;
-    left: 486px;
+    left: 100%;
     border: #07BC0C 2px solid;
     z-index: 2;
 }
 #heading3{
     position: relative;
+    width: 33%;
     font-size: 40px;
     top: 9px;
-    left: 652px;
+    left: 133%;
     z-index: 3;
 }
 
@@ -746,20 +748,21 @@ height: 750px;
 #contact{
     position: absolute;
     left: 275px;
-    bottom: 100px;
+    bottom: 150px;
     color: #c2c9cf;
 }
 .textNote{
     position: relative;
-    left: 375px;
-    bottom: 370px;
+    width: 72%;
+    left: 147%;
+    bottom: 375px;
     font-size: 1.5em;
     color: #c0d3e2;
 }
 .textfield{
     position: absolute;
     width: 43%;
-    left: 648px;
+    left: 54%;
     bottom: 246px;
     display: flex;
     flex-direction: column;
@@ -832,7 +835,7 @@ height: 750px;
 
 footer > section{
     position: absolute;
-    left: 516px;
+    left: 36%;
     bottom: 154px;
     width: 53%;
 }
@@ -971,7 +974,7 @@ footer {
     #services2 {
         
         bottom: 69px;
-        left: 617px;
+        left: 55%;
         width: 43%;
     }
 
@@ -1047,4 +1050,47 @@ footer {
  }
 
 
+ @media screen and (max-width: 425px){
+
+
+    body {
+        width: 316%;
+
+    }
+
+    #main_page {
+        width: 100%;
+        height: 116%;
+    }
+
+    #home_page {
+        width: 317%;
+        left: 0%;
+        height: 95%;
+    }
+
+    #nav_page {
+        height: 3%;
+        width: 100%;
+    }
+
+    #menu_list {
+        display: none;
+    }
+
+    #aboutDescription {
+        bottom: 28%;
+        left: 13%;
+        width: 60%;
+    }
+
+    #projectsInfo {
+        width: 14%;
+        bottom: 26%;
+        left: 66%;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
 
