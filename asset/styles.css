@@ -99,6 +99,8 @@ font-size: 50px;
 }
 
 .hireMe{
+    position: absolute;
+    left: 48%;
     border: 8px green solid;
     border-radius: 50px;
     margin-top: 30px;
